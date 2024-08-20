@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
-              >
+              > 
                 @manoj_ahi
               </a>
             </p>
