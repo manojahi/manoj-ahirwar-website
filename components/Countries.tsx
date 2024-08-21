@@ -5,7 +5,7 @@ import { countriesData } from "@/constants/countriesData";
 
 const Countries: React.FC = () => {
   return (
-    <section className="py-20 bg-gray-100">
+    <section className="px-3 md:px-0 py-20 bg-gray-100">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-gray-800">
           Countries I've Visited
