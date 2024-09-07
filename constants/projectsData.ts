@@ -39,6 +39,15 @@ export const projectData: Project[] = [
     status: "live",
   },
   {
+    title: "WeeklyAPI",
+    description:
+      "WeeklyAPI is a collection of more than 50 tools which are free to use. From SEO to image editing",
+    type: "Free Tools",
+    link: "https://www.weeklyapi.com/",
+    linkLabel: "WeeklyAPI.com",
+    status: "live",
+  },
+  {
     title: "UseAI.blog",
     description:
       "Create blogs in bulk with AI and improve your SEO game. Just enter the topic and create hundreds of blogs in one click.",

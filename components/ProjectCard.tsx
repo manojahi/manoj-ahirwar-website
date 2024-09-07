@@ -32,7 +32,7 @@ const ProjectCard: React.FC<Project> = ({
         <Link
           href={link}
           target="_blank"
-          passHref
+          rel="noopener"
           className="text-blue-500 hover:text-blue-600 font-medium flex items-center"
         >
           <span>{linkLabel}</span>
