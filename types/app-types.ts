@@ -1,6 +1,6 @@
 import { IconType } from "react-icons";
 
-export type ProjectStatus = "live" | "sold" | "discontinued" | "never launched";
+export type ProjectStatus = "live" | "sold" | "discontinued" | "never launched" | "selling";
 
 export interface Project {
   title: string;

@@ -15,6 +15,7 @@ const StatusFilter: React.FC<StatusFilterProps> = ({
     "live",
     "sold",
     "discontinued",
+    "selling",
     "never launched",
   ];
 

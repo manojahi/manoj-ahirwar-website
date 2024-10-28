@@ -36,7 +36,7 @@ export const projectData: Project[] = [
     type: "SAAS",
     link: "https://www.pagepe.com/",
     linkLabel: "PagePe.com",
-    status: "live",
+    status: "selling",
   },
   {
     title: "WeeklyAPI",
@@ -54,7 +54,7 @@ export const projectData: Project[] = [
     type: "AI Writer",
     link: "https://www.useai.blog/",
     linkLabel: "UseAI.blog",
-    status: "live",
+    status: "selling",
   },
   {
     title: "SimpleForms",
@@ -63,7 +63,7 @@ export const projectData: Project[] = [
     type: "SAAS",
     link: "https://www.simpleforms.so/",
     linkLabel: "SimpleForms.so",
-    status: "live",
+    status: "selling",
   },
 
   //sold projects
