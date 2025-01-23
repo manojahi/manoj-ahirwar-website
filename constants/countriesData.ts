@@ -17,4 +17,12 @@ export const countriesData: Country[] = [
   { name: "Macau", code: "MO" },
   { name: "Indonesia", code: "ID" },
   { name: "Sri Lanka", code: "LK" },
+  {
+    name: "Japan",
+    code: "JP",
+  },
+  {
+    name: "Taiwan",
+    code: "TW",
+  },
 ];
