@@ -30,15 +30,6 @@ export const projectData: Project[] = [
     status: "live",
   },
   {
-    title: "PagePe",
-    description:
-      "Turn your unsed domains into websites. Choose from different content categories for your website.",
-    type: "SAAS",
-    link: "https://www.pagepe.com/",
-    linkLabel: "PagePe.com",
-    status: "selling",
-  },
-  {
     title: "WeeklyAPI",
     description:
       "WeeklyAPI is a collection of more than 50 tools which are free to use. From SEO to image editing",
@@ -67,6 +58,15 @@ export const projectData: Project[] = [
   },
 
   //sold projects
+  {
+    title: "PagePe",
+    description:
+      "Turn your unsed domains into websites. Choose from different content categories for your website.",
+    type: "SAAS",
+    link: "https://www.pagepe.com/",
+    linkLabel: "PagePe.com",
+    status: "sold",
+  },
   {
     title: "BoilerCode",
     description:
