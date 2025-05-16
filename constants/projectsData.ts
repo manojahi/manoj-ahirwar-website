@@ -12,6 +12,15 @@ export const projectData: Project[] = [
     status: "live",
   },
   {
+    title: "MemePe",
+    description:
+      "AI Powered Meme Marketing Platform. Create and Share Brand Aware Memes with AI and Grow your brand.",
+    type: "SaaS",
+    link: "https://www.memepe.com/",
+    linkLabel: "MemePe.com",
+    status: "live",
+  },
+  {
     title: "BoringLead",
     description:
       "Find emails from LinkedIn with one click. Boost your business with new customers from around the world who are looking for you.",
