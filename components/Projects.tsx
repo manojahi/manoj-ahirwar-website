@@ -22,6 +22,7 @@ const Projects: React.FC = () => {
         <StatusFilter
           currentStatus={currentStatus}
           onStatusChange={setCurrentStatus}
+          projects={projectData}
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
           {filteredProjects.map((project, index) => (
