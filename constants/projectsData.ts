@@ -45,7 +45,7 @@ export const projectData: Project[] = [
     type: "Free Tools",
     link: "https://www.weeklyapi.com/",
     linkLabel: "WeeklyAPI.com",
-    status: "live",
+    status: "discontinued",
   },
   {
     title: "UseAI.blog",
@@ -54,7 +54,7 @@ export const projectData: Project[] = [
     type: "AI Writer",
     link: "https://www.useai.blog/",
     linkLabel: "UseAI.blog",
-    status: "selling",
+    status: "discontinued",
   },
   {
     title: "SimpleForms",
@@ -97,6 +97,14 @@ export const projectData: Project[] = [
 
   //not sure what to do projects
   {
+    title: "SaaSLiquidate",
+    description: "A place to liquidate your SaaS businesses. and sell it for cheap.",
+    type: "SAAS",
+    link: "https://twitter.com/manoj_ahi",
+    linkLabel: "SaaSLiquidate",
+    status: "discontinued",
+  },
+  {
     title: "GifVista",
     description:
       "Create eye catching GIFs of your stats, memes, and texts. Improve your social game by posting gifs instead of boring text.",
@@ -112,7 +120,7 @@ export const projectData: Project[] = [
     type: "Just for Fun",
     link: "https://www.vibewall.me/",
     linkLabel: "VibeWall",
-    status: "live",
+    status: "discontinued",
   },
   {
     title: "QuickFloat",
