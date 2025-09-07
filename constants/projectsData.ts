@@ -39,6 +39,15 @@ export const projectData: Project[] = [
     status: "live",
   },
   {
+    title: "MyJobReach",
+    description:
+      "Skip the job board. Connect with recruiters directly, and increase your chances of getting hired.",
+    type: "SAAS",
+    link: "https://www.myjobreach.com/",
+    linkLabel: "MyJobReach.com",
+    status: "live",
+  },
+  {
     title: "WeeklyAPI",
     description:
       "WeeklyAPI is a collection of more than 50 tools which are free to use. From SEO to image editing",
