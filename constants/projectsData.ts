@@ -27,7 +27,7 @@ export const projectData: Project[] = [
     type: "SaaS",
     link: "https://www.boringlead.com/",
     linkLabel: "BoringLead.com",
-    status: "live",
+    status: "selling",
   },
   {
     title: "UseArticle",
@@ -36,15 +36,6 @@ export const projectData: Project[] = [
     type: "SAAS",
     link: "https://www.usearticle.com/",
     linkLabel: "UseArticle.com",
-    status: "live",
-  },
-  {
-    title: "MyJobReach",
-    description:
-      "Skip the job board. Connect with recruiters directly, and increase your chances of getting hired.",
-    type: "SAAS",
-    link: "https://www.myjobreach.com/",
-    linkLabel: "MyJobReach.com",
     status: "live",
   },
   {
@@ -72,7 +63,7 @@ export const projectData: Project[] = [
     type: "SAAS",
     link: "https://www.simpleforms.so/",
     linkLabel: "SimpleForms.so",
-    status: "selling",
+    status: "discontinued",
   },
 
   //sold projects
