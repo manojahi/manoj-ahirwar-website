@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased bg-white text-gray-900;
+  }
+
+  /* Focus states for accessibility */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-black;
+  }
+
+  /* Improve focus visibility for keyboard navigation */
+  a:focus-visible,
+  button:focus-visible {
+    @apply ring-2 ring-black ring-offset-2;
+  }
+}

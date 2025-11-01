@@ -11,41 +11,45 @@ const ProjectCard: React.FC<Project> = ({
   linkLabel,
 }) => {
   return (
-    <div className="bg-white rounded-lg shadow overflow-hidden transition-all duration-300 flex flex-col h-full">
-      <div className="p-6 flex-grow">
-        <div className="flex justify-between items-center mb-4">
-          <span className="px-3 py-1 text-xs font-semibold text-blue-600 bg-blue-100 rounded-full">
+    <div className="group relative bg-white border border-gray-200 rounded-xl p-5 sm:p-6 hover:shadow-xl hover:border-gray-300 transition-all duration-300">
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl" />
+
+      <div className="relative">
+        <div className="flex items-start justify-between mb-3 sm:mb-4 gap-2">
+          <span className="text-xs font-mono text-gray-400 uppercase tracking-wider line-clamp-1">
             {type}
           </span>
-          <span
-            className={`px-3 py-1 text-xs font-semibold rounded-full ${getStatusColor(
-              status
-            )}`}
-          >
+          <span className={`text-xs font-semibold px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-full whitespace-nowrap ${getStatusColor(status)}`}>
             {status.charAt(0).toUpperCase() + status.slice(1)}
           </span>
         </div>
-        <h3 className="text-xl font-bold mb-2 text-gray-800">{title}</h3>
-        <p className="text-gray-600">{description}</p>
-      </div>
-      <div className="px-6 py-4 bg-gray-50 border-t border-gray-100 mt-auto">
+
+        <h3 className="text-lg sm:text-xl font-bold text-black mb-2 sm:mb-3 group-hover:text-gray-700 transition-colors">
+          {title}
+        </h3>
+
+        <p className="text-sm text-gray-600 mb-4 sm:mb-6 leading-relaxed">
+          {description}
+        </p>
+
         <Link
           href={link}
           target="_blank"
-          rel="noopener"
-          className="text-blue-500 hover:text-blue-600 font-medium flex items-center"
+          rel="noopener noreferrer"
+          className="inline-flex items-center text-sm font-semibold text-black group-hover:gap-2 gap-1 transition-all"
         >
-          <span>{linkLabel}</span>
+          <span className="line-clamp-1">{linkLabel}</span>
           <svg
-            className="w-4 h-4 ml-2"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
+            className="w-4 h-4 flex-shrink-0 transform group-hover:translate-x-1 transition-transform"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
           >
             <path
-              fillRule="evenodd"
-              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-              clipRule="evenodd"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M17 8l4 4m0 0l-4 4m4-4H3"
             />
           </svg>
         </Link>

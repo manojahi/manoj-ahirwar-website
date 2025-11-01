@@ -12,6 +12,24 @@ export const projectData: Project[] = [
     status: "live",
   },
   {
+    title: "UseArticle",
+    description:
+      "Create your website blog in 5 mins. With automatic SEO optimization, Boost your google ranking.",
+    type: "SAAS",
+    link: "https://www.usearticle.com/",
+    linkLabel: "UseArticle.com",
+    status: "live",
+  },
+  {
+    title: "deploy.st",
+    description:
+      "We are a Mobile Apps Studio. Discover our collection of innovative mobile applications designed to enhance your daily life and boost productivity.",
+    type: "Mobile Apps Studio",
+    link: "https://deploy.st/",
+    linkLabel: "deploy.st",
+    status: "live",
+  },
+  {
     title: "MemePe",
     description:
       "AI Powered Meme Marketing Platform. Create and Share Brand Aware Memes with AI and Grow your brand.",
@@ -28,15 +46,6 @@ export const projectData: Project[] = [
     link: "https://www.boringlead.com/",
     linkLabel: "BoringLead.com",
     status: "selling",
-  },
-  {
-    title: "UseArticle",
-    description:
-      "Create your website blog in 5 mins. With automatic SEO optimization, Boost your google ranking.",
-    type: "SAAS",
-    link: "https://www.usearticle.com/",
-    linkLabel: "UseArticle.com",
-    status: "live",
   },
   {
     title: "WeeklyAPI",
@@ -98,7 +107,8 @@ export const projectData: Project[] = [
   //not sure what to do projects
   {
     title: "SaaSLiquidate",
-    description: "A place to liquidate your SaaS businesses. and sell it for cheap.",
+    description:
+      "A place to liquidate your SaaS businesses. and sell it for cheap.",
     type: "SAAS",
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "SaaSLiquidate",
