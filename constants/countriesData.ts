@@ -25,4 +25,6 @@ export const countriesData: Country[] = [
     name: "Taiwan",
     code: "TW",
   },
+  { name: "China", code: "CN" },
+  { name: "New Zealand", code: "NZ" },
 ];
