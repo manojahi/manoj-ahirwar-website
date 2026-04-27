@@ -1,5 +1,6 @@
 import React from "react";
 import ReactCountryFlag from "react-country-flag";
+import Link from "next/link";
 import { Country } from "@/types/app-types";
 import { countriesData } from "@/constants/countriesData";
 
@@ -23,8 +24,9 @@ const Countries: React.FC = () => {
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">
           {countriesData.map((country: Country, index: number) => (
-            <div
+            <Link
               key={index}
+              href={`/travel/${country.slug}`}
               className="group bg-white border border-gray-200 p-4 sm:p-5 rounded-xl hover:shadow-lg hover:border-gray-300 transition-all duration-300 flex flex-col items-center gap-2 sm:gap-3"
             >
               <div className="transform group-hover:scale-110 transition-transform duration-300">
@@ -43,7 +45,7 @@ const Countries: React.FC = () => {
               <h3 className="text-xs sm:text-sm font-semibold text-gray-900 text-center group-hover:text-black transition-colors leading-tight">
                 {country.name}
               </h3>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
