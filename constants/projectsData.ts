@@ -5,7 +5,7 @@ export const projectData: Project[] = [
   {
     title: "UniqueSide",
     description:
-      "Launch your MVP in 15 days. We will build your MVP so you can go to market quickly before your competitors.",
+      "Launch your MVP in 15 days. We will build your MVP so you can go to market quickly before your competitors. Crossed $250k in revenue.",
     type: "Software Services",
     link: "https://www.uniqueside.io/",
     linkLabel: "UniqueSide.io",
@@ -14,19 +14,28 @@ export const projectData: Project[] = [
   {
     title: "UseArticle",
     description:
-      "Create your website blog in 5 mins. With automatic SEO optimization, Boost your google ranking.",
+      "Create your website blog in 5 mins. With automatic SEO optimization, Boost your google ranking. Crossed $2.3k in revenue.",
     type: "SAAS",
     link: "https://www.usearticle.com/",
     linkLabel: "UseArticle.com",
     status: "live",
   },
   {
-    title: "deploy.st",
+    title: "Deploy.st",
     description:
       "We are a Mobile Apps Studio. Discover our collection of innovative mobile applications designed to enhance your daily life and boost productivity.",
     type: "Mobile Apps Studio",
     link: "https://deploy.st/",
-    linkLabel: "deploy.st",
+    linkLabel: "Deploy.st",
+    status: "live",
+  },
+  {
+    title: "DeadSubs",
+    description:
+      "Find abandoned Reddit communities with thousands of subscribers and inactive moderators, then claim them as your own.",
+    type: "SaaS",
+    link: "https://www.deadsubs.com/",
+    linkLabel: "DeadSubs.com",
     status: "live",
   },
   {
@@ -36,7 +45,7 @@ export const projectData: Project[] = [
     type: "SaaS",
     link: "https://www.memepe.com/",
     linkLabel: "MemePe.com",
-    status: "live",
+    status: "discontinued",
   },
   {
     title: "BoringLead",
@@ -45,7 +54,7 @@ export const projectData: Project[] = [
     type: "SaaS",
     link: "https://www.boringlead.com/",
     linkLabel: "BoringLead.com",
-    status: "selling",
+    status: "discontinued",
   },
   {
     title: "WeeklyAPI",
@@ -181,7 +190,7 @@ export const projectData: Project[] = [
   {
     title: "MoneyFit.io",
     description:
-      "Personal finance portfolio tracking platform. Track Mutual funds, Stocks, Crypto, and more in one place.",
+      "Personal finance portfolio tracking platform. Track Mutual funds, Stocks, Crypto, and more in one place. Crossed over 5k users in India.",
     type: "SAAS",
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "MoneyFit",
@@ -208,7 +217,7 @@ export const projectData: Project[] = [
   {
     title: "Opin Network",
     description:
-      "Like-minded social network app. Create or submit a poll and get connected with like-minded people around the world.",
+      "Like-minded social network app. Create or submit a poll and get connected with like-minded people around the world. Reached 10k users worldwide.",
     type: "SAAS",
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "Opin Network",
@@ -217,7 +226,7 @@ export const projectData: Project[] = [
   {
     title: "Pixap.in",
     description:
-      "Engineering exam question papers social network. Students can upload or access previous year's question papers for their subjects.",
+      "Engineering exam question papers social network. Students can upload or access previous year's question papers for their subjects. Got 5k students using the product.",
     type: "SAAS",
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "Pixap",

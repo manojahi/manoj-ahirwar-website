@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Projects from "../components/Projects";
 import Countries from "../components/Countries";
+import Press from "../components/Press";
 import InternetPresence from "../components/InternetPresence";
 
 const Home: React.FC = () => {
@@ -18,6 +19,7 @@ const Home: React.FC = () => {
       <Projects />
       <Countries />
       <InternetPresence />
+      <Press />
     </Layout>
   );
 };

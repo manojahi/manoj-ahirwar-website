@@ -21,3 +21,9 @@ export interface SocialLink {
   url: string;
   icon: IconType;
 }
+
+export interface PressFeature {
+  publication: string;
+  title: string;
+  url: string;
+}
