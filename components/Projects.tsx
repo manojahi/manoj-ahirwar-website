@@ -10,14 +10,10 @@ const Projects: React.FC = () => {
   );
 
   const orderedProjects = useMemo(() => {
-    const byYearDesc = (a: { year?: number }, b: { year?: number }) =>
-      (b.year ?? 0) - (a.year ?? 0);
-    const live = projectData
-      .filter((p) => p.status === "live")
-      .sort(byYearDesc);
+    const live = projectData.filter((p) => p.status === "live");
     const rest = projectData
       .filter((p) => p.status !== "live")
-      .sort(byYearDesc);
+      .sort((a, b) => (b.year ?? 0) - (a.year ?? 0));
     return [...live, ...rest];
   }, []);
 
