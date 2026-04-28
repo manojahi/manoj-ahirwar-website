@@ -3,22 +3,36 @@ import { Project } from "@/types/app-types";
 export const projectData: Project[] = [
   //live projects
   {
+    title: "serpIQ",
+    description:
+      "The only SEO audit CLI that reads your codebase first, then pulls real Google Search Console data. Free, open source, bring your own LLM.",
+    type: "Open Source",
+    link: "https://manojahi.github.io/serpiq/",
+    linkLabel: "serpIQ",
+    status: "live",
+    year: 2026,
+  },
+  {
     title: "UniqueSide",
     description:
-      "Launch your MVP in 15 days. We will build your MVP so you can go to market quickly before your competitors. Crossed $250k in revenue.",
+      "Launch your MVP in 15 days. We will build your MVP so you can go to market quickly before your competitors.",
     type: "Software Services",
     link: "https://www.uniqueside.io/",
     linkLabel: "UniqueSide.io",
     status: "live",
+    year: 2023,
+    revenue: "$250K+",
   },
   {
     title: "UseArticle",
     description:
-      "Create your website blog in 5 mins. With automatic SEO optimization, Boost your google ranking. Crossed $2.3k in revenue.",
+      "Build Profitable Affiliate Sites in 3 Minutes with AI.",
     type: "SAAS",
     link: "https://www.usearticle.com/",
     linkLabel: "UseArticle.com",
     status: "live",
+    year: 2024,
+    revenue: "$2.3K+",
   },
   {
     title: "Deploy.st",
@@ -28,6 +42,8 @@ export const projectData: Project[] = [
     link: "https://deploy.st/",
     linkLabel: "Deploy.st",
     status: "live",
+    year: 2025,
+    revenue: "$700+"
   },
   {
     title: "DeadSubs",
@@ -37,6 +53,7 @@ export const projectData: Project[] = [
     link: "https://www.deadsubs.com/",
     linkLabel: "DeadSubs.com",
     status: "live",
+    year: 2026,
   },
   {
     title: "MemePe",
@@ -46,6 +63,7 @@ export const projectData: Project[] = [
     link: "https://www.memepe.com/",
     linkLabel: "MemePe.com",
     status: "discontinued",
+    year: 2025,
   },
   {
     title: "BoringLead",
@@ -55,6 +73,8 @@ export const projectData: Project[] = [
     link: "https://www.boringlead.com/",
     linkLabel: "BoringLead.com",
     status: "discontinued",
+    year: 2024,
+    revenue: "$600+"
   },
   {
     title: "WeeklyAPI",
@@ -64,6 +84,7 @@ export const projectData: Project[] = [
     link: "https://www.weeklyapi.com/",
     linkLabel: "WeeklyAPI.com",
     status: "discontinued",
+    year: 2024,
   },
   {
     title: "UseAI.blog",
@@ -73,6 +94,8 @@ export const projectData: Project[] = [
     link: "https://www.useai.blog/",
     linkLabel: "UseAI.blog",
     status: "discontinued",
+    year: 2023,
+    revenue: "$400+"
   },
   {
     title: "SimpleForms",
@@ -82,6 +105,7 @@ export const projectData: Project[] = [
     link: "https://www.simpleforms.so/",
     linkLabel: "SimpleForms.so",
     status: "discontinued",
+    year: 2024,
   },
 
   //sold projects
@@ -93,6 +117,8 @@ export const projectData: Project[] = [
     link: "https://www.pagepe.com/",
     linkLabel: "PagePe.com",
     status: "sold",
+    year: 2024,
+    revenue: "$800+"
   },
   {
     title: "BoilerCode",
@@ -102,6 +128,8 @@ export const projectData: Project[] = [
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "BoilerCode.co",
     status: "sold",
+    year: 2023,
+    revenue: "$4.5K+"
   },
   {
     title: "xActions",
@@ -111,6 +139,8 @@ export const projectData: Project[] = [
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "xActions",
     status: "sold",
+    year: 2023,
+    revenue: "$600+"
   },
 
   //not sure what to do projects
@@ -122,6 +152,7 @@ export const projectData: Project[] = [
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "SaaSLiquidate",
     status: "discontinued",
+    year: 2025,
   },
   {
     title: "GifVista",
@@ -131,6 +162,7 @@ export const projectData: Project[] = [
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "GifVista",
     status: "discontinued",
+    year: 2023,
   },
   {
     title: "VibeWall",
@@ -140,6 +172,7 @@ export const projectData: Project[] = [
     link: "https://www.vibewall.me/",
     linkLabel: "VibeWall",
     status: "discontinued",
+    year: 2024,
   },
   {
     title: "QuickFloat",
@@ -149,6 +182,7 @@ export const projectData: Project[] = [
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "QuickFloat",
     status: "discontinued",
+    year: 2021,
   },
   {
     title: "NoCodeChat",
@@ -158,6 +192,7 @@ export const projectData: Project[] = [
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "NoCodeChat",
     status: "never launched",
+    year: 2024,
   },
   {
     title: "KidoBook",
@@ -167,6 +202,7 @@ export const projectData: Project[] = [
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "KidoBook",
     status: "discontinued",
+    year: 2020,
   },
   {
     title: "HackrWall",
@@ -176,6 +212,7 @@ export const projectData: Project[] = [
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "HackrWall",
     status: "discontinued",
+    year: 2022,
   },
   {
     title: "Smart Morning",
@@ -185,6 +222,7 @@ export const projectData: Project[] = [
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "Smart Morning",
     status: "discontinued",
+    year: 2023,
   },
 
   {
@@ -195,6 +233,7 @@ export const projectData: Project[] = [
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "MoneyFit",
     status: "discontinued",
+    year: 2017,
   },
   {
     title: "1Profile.link",
@@ -204,6 +243,7 @@ export const projectData: Project[] = [
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "1Profile",
     status: "discontinued",
+    year: 2018,
   },
   {
     title: "One Dashboard",
@@ -213,6 +253,7 @@ export const projectData: Project[] = [
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "One Dashboard",
     status: "discontinued",
+    year: 2018,
   },
   {
     title: "Opin Network",
@@ -222,6 +263,7 @@ export const projectData: Project[] = [
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "Opin Network",
     status: "discontinued",
+    year: 2016,
   },
   {
     title: "Pixap.in",
@@ -231,6 +273,7 @@ export const projectData: Project[] = [
     link: "https://twitter.com/manoj_ahi",
     linkLabel: "Pixap",
     status: "discontinued",
+    year: 2014,
   },
   {
     title: "And Lot more...",

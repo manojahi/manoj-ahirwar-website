@@ -9,6 +9,8 @@ export interface Project {
   link: string;
   linkLabel: string;
   status: ProjectStatus;
+  year?: number;
+  revenue?: string;
 }
 
 export interface Country {
