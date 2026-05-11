@@ -59,7 +59,7 @@ const ProjectCard: React.FC<Project> = ({
         <Link
           href={link}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener external dofollow"
           className="inline-flex items-center self-start text-sm font-semibold text-black gap-1 group-hover:gap-2 transition-all flex-shrink-0"
         >
           <span>{linkLabel}</span>
