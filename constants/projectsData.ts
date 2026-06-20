@@ -3,6 +3,16 @@ import { Project } from "@/types/app-types";
 export const projectData: Project[] = [
   //live projects
   {
+    title: "Orbl",
+    description:
+      "Your desktop, beautifully alive. A free macOS live wallpaper that turns your desktop into a calm, living dashboard of your day — clock, weather, focus, machine stats, and premium integrations like Stripe, GitHub & revenue. 100% local, no accounts.",
+    type: "macOS App",
+    link: "https://www.orbl.app/",
+    linkLabel: "Orbl.app",
+    status: "live",
+    year: 2026,
+  },
+  {
     title: "serpIQ",
     description:
       "The only SEO audit CLI that reads your codebase first, then pulls real Google Search Console data. Free, open source, bring your own LLM.",
@@ -32,7 +42,7 @@ export const projectData: Project[] = [
     linkLabel: "TheStatsApi.com",
     status: "live",
     year: 2026,
-    revenue: "$2.2K/m",
+    revenue: "$11K/m",
   },
   {
     title: "UseArticle",
