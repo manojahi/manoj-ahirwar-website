@@ -35,7 +35,7 @@ const ProjectCard: React.FC<Project> = ({
             >
               {status.charAt(0).toUpperCase() + status.slice(1)}
             </span>
-            {revenue && (
+            {revenue && status === "live" && (
               <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 border border-emerald-100">
                 <span className="text-[10px] font-mono uppercase tracking-wider text-emerald-700/70">
                   Rev
