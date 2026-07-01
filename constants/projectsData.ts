@@ -34,17 +34,6 @@ export const projectData: Project[] = [
     revenue: "$250K+",
   },
   {
-    title: "TheStatsApi",
-    description:
-      "The Football Stats API Built for Speed. Instant access to football match data, player stats, and fixtures across 80 competitions, with up to 1,196 available on request.",
-    type: "API SaaS",
-    link: "https://www.thestatsapi.com/",
-    linkLabel: "TheStatsApi.com",
-    status: "live",
-    year: 2026,
-    revenue: "$11K/m",
-  },
-  {
     title: "UseArticle",
     description:
       "Build Profitable Affiliate Sites in 3 Minutes with AI.",
