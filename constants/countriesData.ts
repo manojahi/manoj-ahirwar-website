@@ -27,4 +27,6 @@ export const countriesData: Country[] = [
   },
   { name: "China", code: "CN" },
   { name: "New Zealand", code: "NZ" },
+  { name: "Brunei", code: "BN" },
+  { name: "Timor-Leste", code: "TL" },
 ];

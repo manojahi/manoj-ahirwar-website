@@ -1,6 +1,5 @@
 import { SocialLink } from "@/types/app-types";
 import {
-  FaTwitter,
   FaGithub,
   FaLinkedin,
   FaInstagram,
@@ -8,13 +7,14 @@ import {
   FaProductHunt,
   FaStackOverflow,
 } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { SiQuora } from "react-icons/si";
 
 export const socialLinksData: SocialLink[] = [
   {
-    name: "Twitter",
-    url: "https://twitter.com/manoj_ahi",
-    icon: FaTwitter,
+    name: "X",
+    url: "https://x.com/manoj_ahi",
+    icon: FaXTwitter,
   },
   {
     name: "Github",

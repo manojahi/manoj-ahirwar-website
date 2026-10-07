@@ -135,7 +135,7 @@ export const projectData: Project[] = [
     description:
       "Boilerplates for SaaS to help you ship your product faster. Including NextJs SaaS, NextJs AI and Other boilerplates.",
     type: "SAAS",
-    link: "https://twitter.com/manoj_ahi",
+    link: "https://x.com/manoj_ahi",
     linkLabel: "BoilerCode.co",
     status: "sold",
     year: 2023,
@@ -146,7 +146,7 @@ export const projectData: Project[] = [
     description:
       "ChatGPT in a better way directly from Chrome extension. Use xActions Actions to create custom Actions.",
     type: "SAAS",
-    link: "https://twitter.com/manoj_ahi",
+    link: "https://x.com/manoj_ahi",
     linkLabel: "xActions",
     status: "sold",
     year: 2023,
@@ -159,7 +159,7 @@ export const projectData: Project[] = [
     description:
       "A place to liquidate your SaaS businesses. and sell it for cheap.",
     type: "SAAS",
-    link: "https://twitter.com/manoj_ahi",
+    link: "https://x.com/manoj_ahi",
     linkLabel: "SaaSLiquidate",
     status: "discontinued",
     year: 2025,
@@ -169,7 +169,7 @@ export const projectData: Project[] = [
     description:
       "Create eye catching GIFs of your stats, memes, and texts. Improve your social game by posting gifs instead of boring text.",
     type: "SAAS",
-    link: "https://twitter.com/manoj_ahi",
+    link: "https://x.com/manoj_ahi",
     linkLabel: "GifVista",
     status: "discontinued",
     year: 2023,
@@ -189,7 +189,7 @@ export const projectData: Project[] = [
     description:
       "API first platform which allows developers to create News & Article platform without any backend.",
     type: "SAAS",
-    link: "https://twitter.com/manoj_ahi",
+    link: "https://x.com/manoj_ahi",
     linkLabel: "QuickFloat",
     status: "discontinued",
     year: 2021,
@@ -199,7 +199,7 @@ export const projectData: Project[] = [
     description:
       "NoCode platform for building Chatbot apps. Create, Customise and Share your own Chatbot apps and start collecting payments.",
     type: "SAAS",
-    link: "https://twitter.com/manoj_ahi",
+    link: "https://x.com/manoj_ahi",
     linkLabel: "NoCodeChat",
     status: "never launched",
     year: 2024,
@@ -209,7 +209,7 @@ export const projectData: Project[] = [
     description:
       "Kids-focused learning app. Kids learn from articles that are kids friendly and safe and also for their age.",
     type: "SAAS",
-    link: "https://twitter.com/manoj_ahi",
+    link: "https://x.com/manoj_ahi",
     linkLabel: "KidoBook",
     status: "discontinued",
     year: 2020,
@@ -219,7 +219,7 @@ export const projectData: Project[] = [
     description:
       "A place on the Internet where anyone can write anything. You can create your own wall and share.",
     type: "SAAS",
-    link: "https://twitter.com/manoj_ahi",
+    link: "https://x.com/manoj_ahi",
     linkLabel: "HackrWall",
     status: "discontinued",
     year: 2022,
@@ -229,7 +229,7 @@ export const projectData: Project[] = [
     description:
       "Read about Technology, Finance, Startup, and Crypto quickly. Get up to date with what's going on in 5 minutes.",
     type: "SAAS",
-    link: "https://twitter.com/manoj_ahi",
+    link: "https://x.com/manoj_ahi",
     linkLabel: "Smart Morning",
     status: "discontinued",
     year: 2023,
@@ -240,7 +240,7 @@ export const projectData: Project[] = [
     description:
       "Personal finance portfolio tracking platform. Track Mutual funds, Stocks, Crypto, and more in one place. Crossed over 5k users in India.",
     type: "SAAS",
-    link: "https://twitter.com/manoj_ahi",
+    link: "https://x.com/manoj_ahi",
     linkLabel: "MoneyFit",
     status: "discontinued",
     year: 2017,
@@ -250,7 +250,7 @@ export const projectData: Project[] = [
     description:
       "Advanced bio page creator platform. Showcase your social stats. Supports 18 social networks.",
     type: "SAAS",
-    link: "https://twitter.com/manoj_ahi",
+    link: "https://x.com/manoj_ahi",
     linkLabel: "1Profile",
     status: "discontinued",
     year: 2018,
@@ -260,7 +260,7 @@ export const projectData: Project[] = [
     description:
       "Your personal dashboard of all of your social networks. Track your social profile performance in real-time. ",
     type: "SAAS",
-    link: "https://twitter.com/manoj_ahi",
+    link: "https://x.com/manoj_ahi",
     linkLabel: "One Dashboard",
     status: "discontinued",
     year: 2018,
@@ -270,7 +270,7 @@ export const projectData: Project[] = [
     description:
       "Like-minded social network app. Create or submit a poll and get connected with like-minded people around the world. Reached 10k users worldwide.",
     type: "SAAS",
-    link: "https://twitter.com/manoj_ahi",
+    link: "https://x.com/manoj_ahi",
     linkLabel: "Opin Network",
     status: "discontinued",
     year: 2016,
@@ -280,7 +280,7 @@ export const projectData: Project[] = [
     description:
       "Engineering exam question papers social network. Students can upload or access previous year's question papers for their subjects. Got 5k students using the product.",
     type: "SAAS",
-    link: "https://twitter.com/manoj_ahi",
+    link: "https://x.com/manoj_ahi",
     linkLabel: "Pixap",
     status: "discontinued",
     year: 2014,
@@ -290,7 +290,7 @@ export const projectData: Project[] = [
     description:
       "There are some projects that just now are ghosts and even I don't remember some.",
     type: "Others",
-    link: "https://twitter.com/manoj_ahi",
+    link: "https://x.com/manoj_ahi",
     linkLabel: "Follow my journey",
     status: "discontinued",
   },

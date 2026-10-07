@@ -1,7 +1,9 @@
 import React from "react";
 import Link from "next/link";
-import { FaTwitter, FaGithub, FaLinkedin, FaCheckCircle } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaCheckCircle } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { HiOutlineLink, HiOutlineCalendar } from "react-icons/hi";
+import { countriesData } from "@/constants/countriesData";
 
 const Header: React.FC = () => {
   return (
@@ -27,13 +29,13 @@ const Header: React.FC = () => {
 
               <div className="flex flex-wrap items-center gap-2 mb-1 sm:mb-2 justify-end">
                 <Link
-                  href="https://twitter.com/manoj_ahi"
+                  href="https://x.com/manoj_ahi"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Twitter"
+                  aria-label="X"
                   className="p-2 sm:p-2.5 rounded-full border border-gray-200 text-gray-700 hover:bg-gray-50 hover:border-gray-400 transition-colors"
                 >
-                  <FaTwitter className="w-4 h-4" />
+                  <FaXTwitter className="w-4 h-4" />
                 </Link>
                 <Link
                   href="https://github.com/manojahi"
@@ -54,7 +56,7 @@ const Header: React.FC = () => {
                   <FaLinkedin className="w-4 h-4" />
                 </Link>
                 <Link
-                  href="https://twitter.com/manoj_ahi"
+                  href="https://x.com/manoj_ahi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 sm:px-5 py-2 sm:py-2.5 bg-black text-white text-sm font-semibold rounded-full hover:bg-gray-800 transition-colors"
@@ -84,13 +86,13 @@ const Header: React.FC = () => {
 
             <div className="flex flex-wrap gap-x-4 gap-y-1.5 text-sm text-gray-500 mb-4">
               <Link
-                href="https://twitter.com/manoj_ahi"
+                href="https://x.com/manoj_ahi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1 text-emerald-600 hover:underline"
               >
                 <HiOutlineLink className="w-4 h-4" />
-                twitter.com/manoj_ahi
+                x.com/manoj_ahi
               </Link>
               <span className="inline-flex items-center gap-1">
                 <HiOutlineCalendar className="w-4 h-4" />
@@ -104,7 +106,7 @@ const Header: React.FC = () => {
                 Launched
               </span>
               <span className="text-gray-500">
-                <span className="font-bold text-black">20</span> Countries
+                <span className="font-bold text-black">{countriesData.length}</span> Countries
                 Visited
               </span>
             </div>

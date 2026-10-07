@@ -13,12 +13,12 @@ const Footer: React.FC = () => {
 
           <div className="flex items-center gap-6 sm:gap-8 text-sm">
             <a
-              href="https://twitter.com/manoj_ahi"
+              href="https://x.com/manoj_ahi"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-black font-medium transition-colors"
             >
-              Twitter
+              X
             </a>
             <a
               href="https://github.com/manojahi/manoj-ahirwar-website"
